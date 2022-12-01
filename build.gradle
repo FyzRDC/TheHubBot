@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    implementation files('../Drawer-master/build/libs/drawer-1.0-SNAPSHOT.jar')
+    implementation files('../Drawer/build/libs/drawer-1.0-SNAPSHOT.jar')
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
