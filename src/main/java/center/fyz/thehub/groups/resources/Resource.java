@@ -19,9 +19,13 @@ public class Resource {
         this.resourceFile = resourceFile;
     }
 
-    //TODO : GET RESOURCE
+    //TODO : SAVE & GET RESOURCE
     public static Resource get(String resourceID) {
         return null;
+    }
+
+    public void save() {
+
     }
 
     public String getResourceID() {

@@ -62,7 +62,7 @@ public class User {
         return this;
     }
 
-    //TODO : GET USER
+    //TODO : GET & SAVE USER
     public static User get(String discordID) {
         return null;
     }
@@ -77,8 +77,6 @@ public class User {
         return resourcesFromUser;
     }
 
-
-    //TODO : SAVE USER
     public void save() {
 
     }

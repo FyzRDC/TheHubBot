@@ -24,9 +24,13 @@ public class Group {
         this.resourceIDs = resourceIDs;
     }
 
-    //TODO : GET GROUP
+    //TODO : GET & SAVE GROUP
     public static Group get(String groupID) {
         return null;
+    }
+
+    public static void save() {
+
     }
 
     public List<Resource> getResourcesFromUser(String discordID) {
